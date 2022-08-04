@@ -1,0 +1,14 @@
+.image_3{
+  background: url("../img/mobile_img/third_block.jpg")0 0/cover no-repeat;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: $md){
+  .image_3{
+    background: url("../img/tablet_img/third_block.jpg")0 0/cover no-repeat;
+  }
+}
+@media screen and (min-width: $lg){
+  .image_3{
+    background: url("../img/desktop_img/third_block.jpg") 0/auto 100% no-repeat;
+  }
+}

@@ -1,0 +1,15 @@
+.image_2{
+  background: url("../img/mobile_img/second_block.jpg")0 0/cover no-repeat;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: $md){
+  .image_2{
+    background: url("../img/tablet_img/second_block.jpg")0 0/cover no-repeat;
+    margin-bottom: 17px;
+  }
+}
+@media screen and (min-width: $lg){
+  .image_2{
+    background: url("../img/desktop_img/second_block.jpg");
+  }
+}

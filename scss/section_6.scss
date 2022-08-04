@@ -1,0 +1,14 @@
+.section_6_desc2{
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+@media screen and (min-width: $md){
+  .section_6_desc2{
+    margin-top: 26px;
+  }
+}
+@media screen and (min-width: $lg){
+  .section_6_desc2{
+    margin-bottom: 95px;
+  }
+}

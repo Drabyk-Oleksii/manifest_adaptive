@@ -1,0 +1,14 @@
+.image_4{
+  background: url("../img/mobile_img/fourty_block.jpg")0 0/cover no-repeat;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: $md){
+  .image_4{
+    background: url("../img/tablet_img/fourty_block.jpg")0 0/cover no-repeat;
+  }
+}
+@media screen and (min-width: $lg){
+  .image_4{
+    background: url("../img/desktop_img/fourty_bloc.jpg");
+  }
+}
